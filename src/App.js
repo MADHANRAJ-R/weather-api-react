@@ -33,6 +33,7 @@ function App() {
 
   return (
     <div className="container">
+      <h1 >Weather Prediction</h1>
       <Search onsearchdata={onhandlechange} />
       {current_weather && <CurrentWeather data={current_weather}/>}
       {current_forecast && <Forecast data={current_forecast} />}
